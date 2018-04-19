@@ -1,0 +1,7 @@
+#/bin/tcsh
+
+foreach i ( 64_1 64_2 64_3 64_4 64_5 1024_1 1024_2 1024_3 1024_4 1024_5 )
+
+./goto < param/pargoto16_$i.net > goto16_$i.dmx
+
+end
